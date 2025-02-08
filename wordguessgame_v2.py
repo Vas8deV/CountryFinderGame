@@ -15,7 +15,7 @@ def modify(c,words,samples):
     return x    
 
 #import words from text file
-with open(r'F:\vasu ECE\python_work\country.txt', 'r') as file:
+with open("country.txt", 'r') as file:
     countries = file.read().splitlines()
 
 # part which randomly selects from list and extracts necessary info
